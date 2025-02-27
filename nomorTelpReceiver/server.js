@@ -30,6 +30,8 @@ const runConsumer = async () => {
     fromBeginning: true
   });
 
+  
+
   await consumer.run({
     eachMessage: async ({ message }) =>{
       const phone = message.value.toString();
