@@ -69,3 +69,5 @@ const port = 4000;
 app.listen(port, () => {
   console.log(`Second backend listening on port ${port}`);
 });
+
+console.log("hellow")
